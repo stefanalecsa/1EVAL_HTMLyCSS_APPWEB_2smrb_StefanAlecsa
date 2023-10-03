@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Ejercicio de listas</h1>
+    <h3>Ejercicio de listas no ordenadas</h3>
+
+    <ul>
+      <li>Peras</li>
+      <li>Manzanas</li>
+      <li>Chocolate</li>
+      <li>Pizzas</li>
+      <li>Napolitanas</li>
+      <li>Plátano</li>
+    </ul>
+    <h3>Ejercicio de listas ordenadas</h3>
+    <ol>
+      <li>Comprar</li>
+      <li>Preparar alimentos</li>
+      <li>Cocinar</li>
+      <li>Limpiar</li>
+      <li>Comer</li>
+    </ol>
+    <dl>
+      <dt>AW</dt>
+      <dd>Aplicaciones web</dd>
+      <dt>SI</dt>
+    </dl>
+    <ul>
+      <li>Peras</li>
+      <li>Manzanas</li>
+      <li>Chocolate</li>
+      <li>Pizzas</li>
+      <ol>
+        <li>Comprar</li>
+      </ol>
+      <li>Napolitanas</li>
+      <li>Plátano</li>
+      <ol>
+        <li>Comprar</li>
+        <li>Preparar alimentos</li>
+        <li>Cocinar</li>
+        <li>Limpiar</li>
+        <li>Comer</li>
+      </ol>
+    </ul>
+  </body>
+</html>

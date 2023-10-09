@@ -7,7 +7,24 @@
 </head>
 <body>
     <p>Nombre:
-        <input type="text" size="40" required name="Nombre" placeholder="Ponga su Nombre">
+        <input type="text" name="Nombre" required size="40" placeholder="Escriba aquí su nombre"></p>
+    <p>Sexo:
+        <input type="radio" name="hm" value="h" required>Hombre
+        <input type="radio" name="hm" value="m">Mujer</p>
+    <p>Edad:
+        <input type="radio" name="edad" value="Adulto" required>Adulto
+        <input type="radio" name="edad" value="Menor" readonly>Menor
     </p>
+    <p>Apellidos:
+        <input type="text" name="Apellidos" required size="40" placeholder="Escriba su apellido">
+    </p>
+    <p>Usuario:
+        <input type="text" name="Usuario" size="40" placeholder="Escriba su Usuario" maxlength="8" minlength="5">
+    </p>
+    <p>Contraseña:
+        <input type="text" name="Contraseña" size="40" placeholder="Escriba su contraseña" maxlength="8" minlength="5">
+    </p>
+    <input type="submit" value="Enviar">
+    <button type="submit"><img src="Aplicaciones-Web-Progresivas-PWA.png" alt="Enviar" width="32" style="vertical-align: middle;">Enviar</button>
 </body>
 </html>

@@ -6,19 +6,24 @@
     <title>Formularios</title>
 </head>
 <body>
-    <form action="" method="get">
+    <form action="server.php" method="get">
     <p>Nombre:
         <input type="text" name="Nombre" required size="40" placeholder="Escriba aquí su nombre"></p>
     <p>Sexo:
         <input type="radio" name="hm" value="h" required>Hombre
         <input type="radio" name="hm" value="m" required>Mujer
     </p>
+    <p>Estado civil:
+        <input type="radio" name="CVS" value="C" required>Casado/a
+        <input type="radio" name="CVS" value="V" required>Viudo/a
+        <input type="radio" name="CVS" value="S" required>Soltero/a
+    </p>
     <p>Año de nacimiento:
         <input type="number" name="Nacido" min="1990" placeholder="Fecha de nacimiento">
     </p>
     <p>Edad:
         <input type="radio" name="edad" value="Adulto" required>Adulto
-        <input type="radio" name="edad" value="Menor" readonly>Menor
+        <input type="radio" name="edad" value="Menor" required>Menor
     </p>
     <p>Apellidos:
         <input type="text" name="Apellidos" required size="40" placeholder="Escriba su apellido">

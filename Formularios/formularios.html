@@ -8,33 +8,16 @@
 <body>
     <center>
     <center action="server.php" method="get">
-    <p>Nombre:
-        <input type="text" name="Nombre" required size="40" placeholder="Escriba aquí su nombre"></p>
-    <p>Sexo:
-        <input type="radio" name="hm" value="h" required>Hombre
-        <input type="radio" name="hm" value="m" required>Mujer
-    </p>
-    <p>Estado civil:
-        <input type="radio" name="CVS" value="C" required>Casado/a
-        <input type="radio" name="CVS" value="V" required>Viudo/a
-        <input type="radio" name="CVS" value="S" required>Soltero/a
-    </p>
-    <p>Año de nacimiento:
-        <input type="number" name="Nacido" min="1990" placeholder="Fecha de nacimiento">
-    </p>
-    <p>Edad:
-        <input type="radio" name="edad" value="Adulto" required>Adulto
-        <input type="radio" name="edad" value="Menor" required>Menor
-    </p>
-    <p>Apellidos:
-        <input type="text" name="Apellidos" required size="40" placeholder="Escriba su apellido">
-    </p>
+    <p>Búsqueda:
+        <input type="search" name="Búsqueda" placeholder="Ponga aquí loque busca">
+    </p> 
     <p>Usuario:
         <input type="text" name="Usuario" size="40" placeholder="Escriba su Usuario" maxlength="8" minlength="5">
     </p>
     <p>Contraseña:
         <input type="text" name="Contraseña" size="40" placeholder="Escriba su contraseña" maxlength="8" minlength="5">
     </p>
+    <fieldset><legend>Preguntas</legend>
     <p>¿Cuantos hijos quieres tener?:
         <select name="menu">
             <option>Elija una opción</option>
@@ -56,6 +39,43 @@
         <input type="checkbox" name="Casilla">Sí
         <input type="checkbox" name="Casilla">No
     </p>
+</fieldset>
+    <fieldset><legend>Datos Personales</legend>
+    <p>Nombre:
+        <input type="text" name="Nombre" required size="40" placeholder="Escriba aquí su nombre"></p>
+    <p>Sexo:
+        <input type="radio" name="hm" value="h" required>Hombre
+        <input type="radio" name="hm" value="m" required>Mujer
+    </p>
+    <p>Estado civil:
+        <input type="radio" name="CVS" value="C" required>Casado/a
+        <input type="radio" name="CVS" value="V" required>Viudo/a
+        <input type="radio" name="CVS" value="S" required>Soltero/a
+    </p>
+        <p>Año de nacimiento:
+            <input type="number" name="Nacido" min="1990" placeholder="Fecha de nacimiento">    
+    <p>Apellidos:
+        <input type="text" name="Apellidos" required size="40" placeholder="Escriba su apellido">
+    </p>
+    <p>Edad:
+        <input type="radio" name="edad" value="Adulto" required>Adulto
+        <input type="radio" name="edad" value="Menor" required>Menor
+    <p>Teléfono:
+        <input type="number" name="Teléfono" placeholder="Tu número de teléfono">
+    </p>
+    <p>URL:
+        <input type="url" name="Dirección" placeholder="Aquí la URL de donde compras tu ropa">
+    </p>
+    <p>Correo:
+        <input type="email" name="Correo" placeholder="Correo electrónico">
+    </p>
+    <p>Mes:
+        <input type="month" name="Mes" placeholder="Mes en el que compra su ropa normalmente">
+    </p>
+    <p>CV:
+        <input type="file" name="CV" placeholder="Currículum Vitae">
+    </p>
+</fieldset>
     <p>
         <button type="submit"><img src="Aplicaciones-Web-Progresivas-PWA.png" alt="Enviar" width="150" style="vertical-align: middle;">Enviar</button>
     </p>

@@ -5,6 +5,8 @@ li{
     color: aquamarine;
 }
 li.L1{
+    box-sizing: content-box;
+    width: 10%;
     color: red;
     background-color: black;
 }

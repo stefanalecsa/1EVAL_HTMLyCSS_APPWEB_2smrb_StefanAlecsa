@@ -1,17 +1,13 @@
 body{
     background-color: cadetblue;
 }
-li{
-    color: aquamarine;
-}
 li.L0{
-    box-sizing: content-box;
+    text-decoration: underline;
     width: 5%;
     color: green;
     background-color: yellow;
 }
 li.L1{
-    box-sizing: content-box;
     width: 9.5%;
     color: red;
     background-color: black;
@@ -23,20 +19,27 @@ li.L2{
     background-color: chocolate;
 }
 li.L3{
-    box-sizing:content-box;
     width: 6%;
     color: RED;
     background-color: white;
 }
 li.L4{
-    box-sizing: content-box;
     width: 11%;
     color: brown;
     background-color: pink;
 }
 li.L5{
-    box-sizing: content-box;
     width: 7%;
     color: Yellow;
     background-color: green;
+}
+ol.Lista{
+    width: 17%;
+    color: rgba(3, 192, 250, 0.568);
+    background-color: rgb(153, 0, 255);
+}
+ul.ul{
+    color: rgb(16, 106, 112);
+    background-color:rgb(238, 0, 91);
+    width: 18%;
 }

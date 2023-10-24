@@ -1,8 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
-p{
-    font-family: 'Sedgwick Ave Display', cursive;
-}
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap'); 
 @font-face {
-    font-family: ;
-    src: url();
+    font-family:"Sedgwick+Ave+Display" ;
+    src: url(SedgwickAveDisplay-Regular.ttf);
+}
+p{
+    font-family: "Sedgwick+Ave+Display";
+    color:darkblue;
+}
+#fuente2{
+    font-family: "Creepster";
+    color: darkorange;
+}
+#fuente3{
+    font-family: "Alumni Sans Collegiate One";
+    color: yellow;
 }

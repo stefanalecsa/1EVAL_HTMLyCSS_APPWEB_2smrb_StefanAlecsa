@@ -2,7 +2,7 @@ body{
     background-color: cadetblue;
 }
 li{
-    list-style-type: upper-roman;
+list-style-type: lower-greek;
 }
 li.L0{
     text-decoration: underline;
@@ -36,13 +36,14 @@ li.L5{
     color: Yellow;
     background-color: green;
 }
+li.Azul{
+    background-color: blueviolet;
+}
 ol.Lista{
     width: 17%;
-    color: rgba(3, 192, 250, 0.568);
-    background-color: rgb(48, 20, 66);
+    color: rgba(115, 255, 0, 0.568);
 }
 ul.ul{
-    color: rgb(16, 106, 112);
-    background-color:rgb(0, 252, 63);
+    color: rgb(248, 1, 207);
     width: 18%;
 }

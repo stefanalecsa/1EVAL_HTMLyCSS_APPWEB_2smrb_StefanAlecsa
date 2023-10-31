@@ -54,4 +54,12 @@ q:lang(es) {
 p::first-line{
     color: pink;
     text-transform: uppercase;
+} 
+pre{
+    counter-reset: cuenta-parrafos;
+}
+p::before{
+    content: counter(cuenta-parrafos, upper-roman)".";
+    counter-increment: cuenta-parrafos;
+    color: blue;
 }

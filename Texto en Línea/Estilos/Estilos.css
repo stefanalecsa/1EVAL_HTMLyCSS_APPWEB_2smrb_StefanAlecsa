@@ -27,5 +27,31 @@ a:link{
     color: blue;
 }
 a:visited{
-    color: darkgreen;
+    color: yellow;
+}
+a{
+    background-color: white;
+    border: blue 2px solid;
+    outline: red 2px solid;
+}
+a:hover{
+    background-color: cadetblue;
+    color: black;
+}
+a:active{
+    background-color: red;
+    color: yellow;
+}
+input:focus{
+    border: red 2px dotted;
+    padding: 2px;
+    background-color: darkgreen;
+}
+q:lang(es) {
+    quotes: '"';
+    color: blue;
+}
+p::first-line{
+    color: pink;
+    text-transform: uppercase;
 }

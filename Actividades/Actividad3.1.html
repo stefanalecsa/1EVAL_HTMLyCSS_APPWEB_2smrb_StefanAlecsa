@@ -1,40 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad3.1</title>
-</head>
-<style>
-    thead>tr, tfoot>tr{
-        background-color: brown;
-        color: white;
-        text-transform: uppercase;
-    }
-    td:last-child{
-        font-weight: bolder;
-    }
-    tbody>tr:nth-child(odd){
-        background-color:  rgb(12, 51, 109);
-        color: white
-    }
-    tbody>tr:nth-child(even){
-        background-color: white;
-        color: rgb(27, 87, 177);
-    }
-    tbody>tr:nth-child(odd){
-        background-color: blue;
-        color: white;
-    }
+    <style>
+        thead>tr,
+        tfoot>tr {
+            background-color: rgb(255, 0, 0);
+            color: white;
+            text-transform: uppercase;
+        }
+
+        td:last-child {
+            font-weight: bolder;
+        }
+
+        td {
+            border: 2px orange solid;
+        }
+
+        tbody>tr:nth-child(odd) {
+            background-color: rgb(12, 51, 109);
+            color: white;
+        }
+
+        tbody>tr:nth-child(even) {
+            background-color: white;
+            color: rgb(27, 87, 177);
+        }
+
+        tbody>tr:nth-child(odd) {
+            background-color: blue;
+            color: white;
+        }
+
+        caption {
+            background-color: blue;
+            color: rgb(255, 255, 255);
+            font-weight: bolder;
+            border-style: solid;
+            border-width: 2px;
+            border-color: black;
+            caption-side: top;
+        }
+
+        table {
+            border: 2px rgb(0, 4, 255) solid;
+            border-collapse: separate;
+            empty-cells: show;
+        }
     </style>
+</head>
+
 <body>
-    <table border="2px">
-        <caption>TABLA CON ESTILOS</caption>
+    <table>
+        <caption>
+            TABLA CON ESTILOS
+        </caption>
         <thead>
-        <td style="background-color: red;">CONCEPTO</td>
-        <td style="background-color: red;">PRIMER SEMESTRE</td>
-        <td style="background-color: red;">SEGUNDO SEMESTRE</td>
-        <td style="background-color: red;">TOTAL</td>
+            <tr>
+                <th>CONCEPTO</th>
+                <th>PRIMER SEMESTRE</th>
+                <th>SEGUNDO SEMESTRE</th>
+                <th>TOTAL</th>
+            </tr>
         </thead>
         <tr>
             <td>Alimentación</td>
@@ -72,12 +103,15 @@
             <td>1750</td>
             <td>3250</td>
         </tr>
-        <tr>
-            <td style="background-color: red;">TOTAL</td>
-            <td style="background-color: red;">0000</td>
-            <td style="background-color: red;">0000</td>
-            <td style="background-color: red;">0000</td>
-        </tr>
+        <tfoot>
+            <tr>
+                <th>TOTAL</th>
+                <th>0000</th>
+                <th>0000</th>
+                <th>0000</th>
+            </tr>
+        </tfoot>
     </table>
 </body>
+
 </html>

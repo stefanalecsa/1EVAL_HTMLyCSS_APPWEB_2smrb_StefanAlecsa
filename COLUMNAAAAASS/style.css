@@ -22,7 +22,6 @@ li{
     margin-bottom: 150%;
     text-transform: uppercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
 }
 p{
     column-count: 2;
@@ -35,5 +34,9 @@ nav{
     padding-top: 25%;
     padding-bottom: 35%;     
     padding-right: 20%;
+}
+main{
+    text-align: justify;
+    padding-left: 25%;
 }
 

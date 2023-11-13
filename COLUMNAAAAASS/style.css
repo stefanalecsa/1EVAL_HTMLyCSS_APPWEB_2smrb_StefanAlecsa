@@ -16,7 +16,13 @@ header>h1{
     display: block;
 }
 ul{
-    list-style-type: none;
+    list-style-type:disc;
+}
+li{
+    margin-bottom: 150%;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 p{
     column-count: 2;
@@ -26,8 +32,8 @@ p{
 nav{
     width: 12%;
     margin: 10px;  
-    padding-top: 3%;
-    padding-bottom: 100%;     
-    padding-right: 10%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 25%;
+    padding-bottom: 35%;     
+    padding-right: 20%;
 }
+

@@ -1,0 +1,28 @@
+nav>.nav-item{
+    background-color:grey ;
+    display: inline-block;
+}
+.fixed-sidebar{
+    height: 50%;
+    position:absolute;
+    top: 36%;
+    width: 7%;
+    height: 25%;
+    left: 5%;
+    box-sizing: border-box;
+    border: 10px grey solid;
+    box-sizing: content-box;
+    content: 50px grey solid;
+}
+.fixed-sidebar>img{
+    width: 100%;
+    height: 35%;
+    position: relative;
+    left: 60%;
+}
+.fixed-sidebar>ul>li{
+    background-color: grey;
+    list-style: none;
+    text-align: center;
+    width: 300%;
+}

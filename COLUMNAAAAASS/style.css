@@ -37,6 +37,8 @@ nav{
 main{
     text-align: justify;
     padding-left: 25%;
+    box-sizing:border-box;
+    border: blue 25px solid;
 }
 
 

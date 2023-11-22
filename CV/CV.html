@@ -4,48 +4,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum</title>
+    <title>Mi Currículum</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rock+Salt&display=swap" rel="stylesheet">
+    <style>
+        body {
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Arial', sans-serif; 
+            color: #333; 
+        }
+
+        header {
+            font-family: 'Rock Salt', cursive;
+            background-color: #3498db; 
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .logo img {
+            max-width: 100%;
+            height: 80px; 
+            margin-left: 10px;
+            float: left;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            box-sizing: border-box;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #3498db; 
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1;
+        }
+
+        h2,
+        h3 {
+            color: #3498db; 
+        }
+
+        h2.Con{
+            border-bottom: 2px solid rgb(39, 173, 214);  /*Si pones 2px luego solid y luego el color te pondrá una línea justo debajo*/
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .experiencia,
+        .educacion {
+            margin-bottom: 30px;
+        }
+
+        .Trabajo,
+        .educacion {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .Habilidades {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .Habilidad {
+            background-color: #3498db; 
+            color: white; 
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin-top: 20px;
+            margin-bottom: 100px; 
+        }
+    </style>
 </head>
 
 <body>
-    <p>
-        <a href="../index.html">
-            <img src="https://live.staticflickr.com/4351/36463048575_d2f2ed6114_b.jpg" alt="Home"
-                tittle="Ir a página principal" width="42" height="48">
-        </a>
-        <a href="#">
-            <img src="https://live.staticflickr.com/4351/36463048575_d2f2ed6114_b.jpg" alt="Principio de la página"
-                title="Principio de la página" width="36" height="36">
-        </a>
-    </p>
 
-    <table border="3">
-        <thead>
-            <tr>
-                <th colspan="6">Curriculum Stefan Alecsa</th>
-            </tr>
-            <tr>
-                <th colspan="3" rowspan="6"><a><img src="https://media.istockphoto.com/id/514769480/es/foto/madrid-en-gran-a-trav%C3%A9s-de-espa%C3%B1a.jpg?s=612x612&w=0&k=20&c=aLCz_xUnpXDpJ1A_p9z4Zncr9em1b0tY1b5b8IAIScQ=" alt="FOTO" width="450" height="250"></a></th>
-                <th colspan="6" rowspan="3">Stefan Alecsa</th>
-            </tr>
-            <tr>
-            <td>
-                <h3><center>Idiomas</center><br></h3>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="Logo.png" alt="Logo"></a>
+        </div>
+        <div class="container">
+            <h1>Stefan Alecsa</h1>
+            <p>Administrador de sistemas</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#Sobre_Mí">Sobre Mí</a>
+        <a href="#experiencia">Experiencia Laboral</a>
+        <a href="#educacion">Educación</a>
+        <a href="#habilidades">Habilidades Técnicas</a>
+    </nav>
+
+    <div class="container main">
+        <div class="section" id="Sobre_Mí">
+            <h2 class="Con">Sobre Mí</h2>
+            <p>Me llamo Stefan Vlad Alecsa, tengo 18 años me gusta mucho configurar servidores, y verificar que dichos
+                servidores estén haciendo bien su trabajo, no me gusta mucho programar ya que no lo entiendo mucho y no
+                me atrae lo bastante comp para decir que un futuro trabajaré en ello.</p>
+        </div>
+
+        <div class="section experiencia" id="experiencia">
+            <h2 class="Con">Experiencia Laboral</h2>
+            <div class="Trabajo">
+            </div>
+
+            <div class="Trabajo">
+                <h3>Electricidad</h3>
+                <p><strong>Fecha:</strong> Julio 2017 - Hasta hoy día</p>
                 <ul>
-                    <li type="disc">Rumano: Nativo</li>
-                    <li type="disc">Español: Nativo</li>
-                    <li type="disc">Inglés: A2</li>
+                    <li>Esto no es experiencia laboral ya que sólo iba ayudarle de vez en cuando, sólo por
+                        ayudarle.</li>
+                    <li>Tengo bastnate conocimiento sobre la electricidad, como por ejemplo, poner un enchufe, cambiar
+                        bombillas y arreglar algún interruptor.</li>
+                    <li>Este conocimiento lo adquirí ayudando a mi padre en algunas obras en las que trabajó.</li>
+                    <li>Me pedía cambiar algún que otro enchufe o que mirase si los cables en los interruptores
+                        estuvieran bien.</li>
                 </ul>
-                
-            </td>
-            </tr>
-                
-                
-                
+            </div>
+        </div>
 
-        </thead>
+        <div class="section educacion" id="educacion">
+            <h2 class="Con">Educación</h2>
+            <div class="educacion">
+                <h3>E.S.O en IES Las Veredillas en Torrejón de ardoz</h3>
+                <p><strong>Fecha de Graduación:</strong> 21 de Junio del 2022</p>
+            </div>
+            <div class="educacion">
+                <h3>Grado Medio en Sistemas Microinformáticos en Redes en IES Villablanca</h3>
+                <p><strong>Fecha de Graducación:</strong> Sigo cursando dicho Grado medio.</p>
+            </div>
+        </div>
 
-    </table>
+        <div class="section Habilidades" id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <div class="Habilidad">DNS</div>
+            <div class="Habilidad">HTTP</div>
+            <div class="Habilidad">SSH</div>
+            <div class="Habilidad">FTP</div>
+            <div class="Habilidad">Active Directory</div>
+            <div class="Habilidad">Redes locales</div>
+        </div>
+    </div>
+
 </body>
 
 </html>

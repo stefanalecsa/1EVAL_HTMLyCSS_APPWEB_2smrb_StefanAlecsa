@@ -24,6 +24,13 @@ header {
   float: left;
 }
 
+.contacto{
+    max-width: 40%;
+    height: 80px;
+    margin-right: 10px;
+    float: right;
+}
+
 nav {
   background-color: #333;
   color: #fff;
@@ -109,11 +116,20 @@ li {
   margin-bottom: 100px;
 }
 
-.footer {
-  column-count: 3;
+footer {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #3498db;
+  margin-top: 10px;
+}
+
+.footer{
+    margin-right: 50px;
+    display:inline-block ;
 }
 
 .Menú{
+    background-color: #333; 
     border: 2px;
     position: absolute;
     float: left;

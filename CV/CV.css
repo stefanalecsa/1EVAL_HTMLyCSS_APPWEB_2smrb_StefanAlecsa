@@ -53,6 +53,7 @@ nav a:hover {
 .main {
   background-color: #fff;
   padding: 20px;
+  margin-left: 220px;
   margin-top: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -107,7 +108,20 @@ li {
   margin-top: 20px;
   margin-bottom: 100px;
 }
-footer {
-  list-style: none;
-  display: inline-flex;
+
+.footer {
+  column-count: 3;
+}
+
+.Menú{
+    border: 2px;
+    position: absolute;
+    float: left;
+    top: 50%;
+    border-radius: 50px;
+}
+
+.lista{
+    padding: 20px;
+    height: 100px;
 }

@@ -77,6 +77,12 @@ h2, h3 {
   padding-bottom: 5px;
   margin-top: 20px;
 }
+h2, .con{
+ border-bottom:2px rgb(39, 173, 214) solid;
+}
+h3.diferente{
+  margin-top: 25px;
+}
 
 .section {
   margin-bottom: 40px;
@@ -121,6 +127,7 @@ footer {
   width: 100%;
   background-color: #3498db;
   margin-top: 10px;
+  color: white;
 }
 
 .footer{

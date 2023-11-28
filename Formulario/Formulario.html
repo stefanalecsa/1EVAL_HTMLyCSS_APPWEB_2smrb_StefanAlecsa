@@ -22,31 +22,71 @@
     </header>
 
     <div class="container main">
-      <h2>Datos personales</h2>
-      <form id="contactForm">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required>
-    
-        <label for="sexo">Sexo:</label>
-        <input type="sexo" id="sexo" name="sexo" required>
-    
-        <label for="message">Mensaje:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-    
-        <button type="submit">Enviar</button>
-      </form>
-      <h2>Contacto</h2>
-      <form id="contactForm">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required>
-    
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" required>
-    
-        <label for="message">Mensaje:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-    
-        <button type="submit">Enviar</button>
+      <form action="#" target="" method="get" name="formDatosPersonales">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+      
+        <label for="apellidos">Apellidos</label>
+        <input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido"/>
+
+        <label for="fecha de nacimiento">Fecha de nacimiento</label>
+        <input type="date" name="fecha">
+      
+        <label for="sexo">Sexo</label>
+        <input type="radio" name="hm" value="h">Hombre
+        <input type="radio" name="hm" value="m">Mujer
+
+        <label for="edad">Edad</label>
+        <input type="number" name="número" min="18" max="98">
+
+        <label for="color favorito">Color favorito</label>
+        <input type="color" name="colorfavorito">
+
+        <label for="hora">¿A qué hora te sueles levantar?</label>
+        <input type="time" name="hora">
+
+        <label for="gustos">¿Qué prefieres más?</label>
+        <input type="checkbox" name="chocolate">Chocolate
+        <input type="checkbox" name="vainilla">Vainilla
+        <input type="checkbox" name="fresa">Fresa
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="email" required />
+
+        <label for="usuario">Usuario</label>
+        <input type="text" name="usuario" placeholder="usuario" minlength="6" maxlength="10" required>
+
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="contraseña" placeholder="Contraseña" minlength="6" maxlength="10" required>
+      
+        <label for="nivel de inglés">Indique su nivel de inglés</label>
+        <input type="range" name="rango" min="0" max="6" list="lista-rango">
+        <datalist id="lista-rango">
+          <option value="A1">
+          <option value="A2">
+          <option value="B1">
+          <option value="B2">
+          <option value="C1">
+          <option value="C2">  
+        </datalist>
+
+        <label for="hijos">¿Cuántos hijos tienes?</label>
+        <select name="menu">
+          <option>Ninguno</option>
+          <option>Uno</option>
+          <option>Dos</option>
+          <option>Más de tres</option>
+        </select>
+
+        <label for="asunto">Asunto</label>
+        <input type ="text" name="asunto" id="asunto" placeholder="titular de la consulta"/>
+      
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+        
+        <input type="submit" name="enviar" value="enviar datos"/>
+        <input type="reset" name="borrar" value="borrar datos">
       </form>
     </div>
     <center>

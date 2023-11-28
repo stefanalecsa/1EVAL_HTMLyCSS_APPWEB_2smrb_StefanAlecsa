@@ -1,3 +1,4 @@
+/* Estilo para el cuerpo de la página en sí*/
 body {
   line-height: 1.6;
   margin: 0;
@@ -8,7 +9,7 @@ body {
   font-family: "Arial", sans-serif;
   color: #333;
 }
-
+/* Estilo para el encabezado de la página*/
 header {
   font-family: "Rock Salt", cursive;
   background-color: #3498db;
@@ -16,7 +17,7 @@ header {
   text-align: center;
   padding: 20px 0;
 }
-
+/* Estilo para poder poner la imágen de volver al index de forma bonita*/
 .logo img {
   max-width: 100%;
   height: 80px;
@@ -24,13 +25,7 @@ header {
   float: left;
 }
 
-.contacto {
-  max-width: 40%;
-  height: 80px;
-  margin-right: 10px;
-  float: right;
-}
-
+/* Estilo para el menú en sí, para colores y si pasas el ratón por encima*/
 nav a {
   text-decoration: none;
   color: #fff;
@@ -40,7 +35,7 @@ nav a {
 nav a:hover {
   color: #3498db;
 }
-
+/* Estilos para lo que hay dentro de la página, como el main y el container que són lo que hay en el centro de la página*/
 .container {
   width: 80%;
   margin: 0 auto;
@@ -57,7 +52,7 @@ nav a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   flex: 1;
 }
-
+/* Estilo para la lista del menú de la izquierda*/
 ul {
   list-style-type: none;
   padding: 0;
@@ -66,7 +61,7 @@ ul {
 li {
   margin-bottom: 8px;
 }
-
+/* Estilo para el pie de página*/
 footer {
   margin: 0 auto;
   width: 100%;
@@ -74,7 +69,7 @@ footer {
   margin-top: 10px;
   color: white;
 }
-
+/* Estilos para distintas clases*/
 .footer {
   margin-right: 50px;
   display: inline-block;
@@ -87,9 +82,64 @@ footer {
   float: left;
   top: 50%;
   border-radius: 50px;
+  margin-left: 10px;
 }
 
 .lista {
   padding: 20px;
   height: 100px;
+}
+/* Estilo para la caja en sí del formulario*/
+form {
+  max-width: 6000px;
+  margin-left: 0px;
+  margin-right:10px ;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las etiquetas y los campos de entrada */
+label {
+  display:block;
+  margin-bottom: 20px;
+  font-weight:bolder;
+}
+
+input,
+select,
+textarea {
+  width: 70%;
+  padding: 1px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilos específicos para algunos campos */
+input[type="range"] {
+  width: 100%;
+}
+
+textarea {
+  height: 100px;
+}
+
+/* Estilos para los botones */
+input[type="submit"],
+input[type="reset"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* Estilo para lo botones, para que si pasas el ratón por encima cambie de color*/
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #2980b9;
 }

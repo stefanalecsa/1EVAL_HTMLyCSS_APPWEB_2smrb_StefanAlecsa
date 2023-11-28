@@ -102,6 +102,7 @@ footer {
     float: left;
     top: 50%;
     border-radius: 50px;
+    margin-left: 10px;
 }
 
 .lista{

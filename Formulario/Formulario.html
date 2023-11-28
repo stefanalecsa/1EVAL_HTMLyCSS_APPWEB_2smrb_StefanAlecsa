@@ -31,34 +31,34 @@
         <input type="text" name="apellidos" id="apellidos" placeholder="Apellido"/>
 
         <label for="fecha de nacimiento">Fecha de nacimiento</label>
-        <input type="date" name="fecha">
+        <input type="date" name="fecha" id="fecha de nacimiento">
       
         <label for="sexo">Sexo</label>
-        <input type="radio" name="hm" value="h">Hombre
-        <input type="radio" name="hm" value="m">Mujer
+        <label><input type="radio" name="hm" value="h">Hombre</label>
+        <label><input type="radio" name="hm" value="m">Mujer</label>
 
         <label for="edad">Edad</label>
-        <input type="number" name="número" min="18" max="98">
+        <input type="number" id="edad" name="número" min="18" max="98">
 
         <label for="color favorito">Color favorito</label>
-        <input type="color" name="colorfavorito">
+        <input type="color" id="color favorito" name="colorfavorito">
 
         <label for="hora">¿A qué hora te sueles levantar?</label>
         <input type="time" name="hora">
 
-        <label for="gustos">¿Qué prefieres más?</label>
-        <input type="checkbox" name="chocolate">Chocolate
-        <input type="checkbox" name="vainilla">Vainilla
-        <input type="checkbox" name="fresa">Fresa
+        <label for="gustos">¿Qué prefieres más?
+        <label><input type="checkbox" name="chocolate">Chocolate</label>
+        <label><input type="checkbox" name="vainilla">Vainilla</label>
+        <label><input type="checkbox" name="fresa">Fresa</label>
 
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="email" required />
+        <input type="email" name="email" id="email" placeholder="Email" required />
 
         <label for="usuario">Usuario</label>
-        <input type="text" name="usuario" placeholder="usuario" minlength="6" maxlength="10" required>
+        <input type="text" name="usuario" id="usuario" placeholder="Usuario" minlength="6" maxlength="10" required>
 
         <label for="contraseña">Contraseña</label>
-        <input type="password" name="contraseña" placeholder="Contraseña" minlength="6" maxlength="10" required>
+        <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" minlength="6" maxlength="10" required>
       
         <label for="nivel de inglés">Indique su nivel de inglés (A1,A2,B1,B2,C1,C2)</label>
         <input type="range" name="rango" min="0" max="6" list="lista-rango">
@@ -80,13 +80,13 @@
         </select>
 
         <label for="asunto">Asunto</label>
-        <input type ="text" name="asunto" id="asunto" placeholder="titular de la consulta"/>
+        <input type ="text" name="asunto" id="asunto" placeholder="Titular de la consulta"/>
       
         <label for="mensaje">Mensaje</label>
-        <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+        <textarea name="mensaje" for="mensaje" id="mensaje" placeholder="Describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
         
-        <input type="submit" name="enviar" value="enviar datos"/>
-        <input type="reset" name="borrar" value="borrar datos">
+        <input type="submit" name="enviar" value="Enviar datos"/>
+        <input type="reset" name="borrar" value="Borrar datos">
       </form>
     </div>
     <center>

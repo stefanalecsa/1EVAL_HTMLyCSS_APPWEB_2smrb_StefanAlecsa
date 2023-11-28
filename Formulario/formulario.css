@@ -93,3 +93,40 @@ footer {
   padding: 20px;
   height: 100px;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Ajustes de diseño para adaptarse al contenido */
+
+.main {
+  margin-left: 200px;
+}

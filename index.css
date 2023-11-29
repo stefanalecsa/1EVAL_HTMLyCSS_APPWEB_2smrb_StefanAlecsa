@@ -56,14 +56,66 @@ nav a:hover {
   margin-top: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  flex: 1;
+}
+
+.seccion{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.columna{
+  border: 1px black solid;
+  padding: 10px;
+  text-align: center;
+  column-count: 3;
+  height: 400px;
+}
+
+.columna img{
+  height: 250px;
+  width: 400px;
+}
+
+.float{
+  font-weight: bold;
+  height: 300px;
+  text-align: center;
+}
+
+.float p{
+  padding-top: 100px;
+}
+
+.float img.imagen1{
+  padding: 20px;
+  float: left;
+  width: 500px;
+  height: 270px;
+}
+
+.float img.imagen2{
+  padding: 20px;
+  float: right;
+  width: 500px;
+  height: 270px;
+}
+
+.appweb{
+  font-weight: bold;
+  height: 300px;
+  text-align: center;
+}
+
+.appweb img{
+  width: 500px;
+  height: 270px;
 }
 
 h2, h3 {
   color: #3498db;
 }
 
-h2.Con {
+h2{
   border-top: 2px solid rgb(39, 173, 214);
   border-bottom: 2px solid rgb(39, 173, 214); /*Si pones 2px luego solid y luego el color te pondrá una línea justo debajo*/
   padding-bottom: 5px;
@@ -79,15 +131,13 @@ li {
   margin-bottom: 8px;
 }
 
-
-
-
 footer {
   margin: 0 auto;
   width: 100%;
   background-color: #3498db;
   margin-top: 10px;
   color: white;
+  text-align: center;
 }
 
 .footer{

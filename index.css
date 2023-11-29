@@ -59,21 +59,27 @@ nav a:hover {
 }
 
 .seccion{
-  margin-bottom: 40px;
+  margin-bottom: 4px;
   text-align: center;
 }
 
 .columna{
-  border: 1px black solid;
   padding: 10px;
   text-align: center;
   column-count: 3;
   height: 400px;
+  display: inline-block;
 }
 
 .columna img{
+  padding: 10px;
   height: 250px;
   width: 400px;
+  text-align: center;
+}
+
+.columna p:first-child{
+  margin-top: 0px;
 }
 
 .float{
@@ -118,7 +124,7 @@ h2, h3 {
 h2{
   border-top: 2px solid rgb(39, 173, 214);
   border-bottom: 2px solid rgb(39, 173, 214); /*Si pones 2px luego solid y luego el color te pondrá una línea justo debajo*/
-  padding-bottom: 5px;
+  padding-bottom: 3px;
   margin-top: 20px;
 }
 

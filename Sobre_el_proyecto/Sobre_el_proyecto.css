@@ -18,7 +18,8 @@ header {
 }
 
 .section{
-  padding: 20px;
+  margin: 50px;
+  padding-top: 50px;
   text-align: center;
 }
 

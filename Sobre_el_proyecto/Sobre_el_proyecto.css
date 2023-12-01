@@ -17,6 +17,11 @@ header {
   padding: 20px 0;
 }
 
+.section{
+  padding: 20px;
+  text-align: center;
+}
+
 .logo img {
   max-width: 100%;
   height: 80px;
@@ -61,6 +66,7 @@ nav a:hover {
 
 h2, h3 {
   color: #3498db;
+  border-bottom: 2px rgb(39, 173, 214) solid;
 }
 
 h2.Con {
